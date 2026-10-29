@@ -8,23 +8,22 @@
 Get `Homebase_beta_2026-10-29.zip` from the [Releases](https://github.com/MoWoSf/Homebase/releases) page of this repository (about 680 MB).
 
 ## Install
-1. Close X-Plane.
-2. Unpack `Homebase_beta_2026-10-29.zip` straight into your **X-Plane 12 folder**, and let it merge with what is already there. You then have:
-   - `X-Plane 12/Resources/plugins/Homebase/`: the plugin
-   - `X-Plane 12/Custom Scenery/Private Hangar Homebases/`: the hangar models
-3. New install only: in `Resources/plugins/Homebase/`, rename `Homebase.ini.default` to `Homebase.ini`. Without it the built-in defaults are used.
-4. Start X-Plane once, then quit. X-Plane adds the new scenery pack to `Custom Scenery/scenery_packs.ini`.
-5. Open `scenery_packs.ini` and move the line `SCENERY_PACK Custom Scenery/Private Hangar Homebases/` **above** your airport sceneries and above `*GLOBAL_AIRPORTS*`. Otherwise buildings under your hangars are not removed. The tablet warns you when the order is wrong.
-6. Remove the old per-aircraft plugins if you have them:
-   - `Aircraft/<Falcon 8X>/plugins/FA8X_Walkaround`
-   - `<GLF650>/plugins/GLF650_Walkaround`
+With X-Plane closed, unpack the ZIP straight into your **X-Plane 12 folder** and let it merge with what is already there. That's all.
 
-   Homebase does all of it now and stands down while an old one is loaded.
+It adds two folders:
+- `Resources/plugins/Homebase/`: the plugin
+- `Custom Scenery/Private Hangar Homebases/`: the hangar models
+
+On its first start, Homebase sets itself up:
+- It creates `Homebase.ini` from `Homebase.ini.default`.
+- It moves its scenery pack above your airports in `scenery_packs.ini`, so buildings under your hangars are removed. Only its own line moves, and the old file is kept as `scenery_packs.ini.homebase_backup`.
+- The new scenery order counts from the next X-Plane start.
 
 ## First flight
 - Load any aircraft. Homebase shows its tablet so you can create an airframe, or you can continue without one.
 - An aircraft without a data pack is measured from its 3D models on first load. This takes a few seconds up to a minute.
 - Key bindings: all commands are under `homebase/...` in *Settings › Keyboard / Joystick*. Walking uses W A S D by default.
+- If you still have the old `FA8X_Walkaround` or `GLF650_Walkaround` plugin in an aircraft folder, delete it. Homebase does everything it did, and stands down for that aircraft while it is there.
 
 ## Updating
 Unpack the new ZIP over the old one, the same way as installing. Your own data is never overwritten:
@@ -36,8 +35,6 @@ Unpack the new ZIP over the old one, the same way as installing. Your own data i
 | Your settings | `Resources/plugins/Homebase/Homebase.ini` (the ZIP only brings `Homebase.ini.default`) |
 | Your own aircraft packs | `Resources/plugins/Homebase/aircraft/` |
 | Your lounge pictures and music | `Resources/plugins/Homebase/fbo_custom/` |
-
-The ZIP contains none of these. Do not delete the folders above when updating.
 
 ## Uninstall
 Delete these two folders:
