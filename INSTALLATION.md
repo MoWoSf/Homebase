@@ -5,7 +5,7 @@
 - Windows 64-bit (this beta has no macOS or Linux build yet)
 
 ## Download
-Get `Homebase_beta_2026-10-29.zip` from the [Releases](https://github.com/MoWoSf/Homebase/releases) page of this repository (about 680 MB).
+Get the newest `Homebase_beta_<date>.zip` (now `Homebase_beta_2026-11-10.zip`) from the [Releases](https://github.com/MoWoSf/Homebase/releases) page of this repository (about 680 MB).
 
 ## Install
 With X-Plane closed, unpack the ZIP straight into your **X-Plane 12 folder** and let it merge with what is already there. That's all.
