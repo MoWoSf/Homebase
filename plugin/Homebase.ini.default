@@ -1,0 +1,199 @@
+# Homebase - settings for every aircraft (take effect after reloading the aircraft)
+# 1 = write details to X-Plane's Log.txt
+debug = 0
+# the walkaround itself: 1 = on; 0 = you stay in the seat (no leaning, standing
+# up or going outside, every key is X-Plane's) while the FBO lounge, the phone,
+# the vehicles and the door mat stay. The phone's switch (Settings >
+# Preferences > Walkaround) wins over this line.
+walkaround = 1
+# 1 = walk with W/A/S/D (Shift runs, Ctrl crouches)
+# 0 = the plugin takes no key at all: bind the commands "Homebase: walk
+#     forward/backward/left/right, run, crouch" to any keys or joystick buttons
+#     under Settings > Keyboard / Joystick (they work with 1 as well)
+walk_keys = 1
+# 1 = W/A/S/D never trigger their X-Plane functions while the Falcon is loaded
+# (seated, Shift and Ctrl with W/A/S/D always stay X-Plane's, e.g. Shift+S)
+block_wasd = 1
+walk_speed = 1.4
+# while holding Shift
+run_speed = 3.0
+# eye height above the floor (m); under a low ceiling you duck automatically
+eye_height = 1.65
+head_clearance = 0.12
+# highest step you can take without stairs (m)
+max_step = 0.35
+# crouch while holding Ctrl: eye height (m) and speed factor
+crouch_height = 1.05
+crouch_speed = 0.5
+# play zone in the seat: how far (m) the head moves before you stand up
+lean_max = 0.30
+lean_speed = 0.5
+# outside the aircraft:
+# 2 = stay in the 3D cockpit view (default) - X-Plane draws the whole Falcon there,
+#     so there is no view switch at all, but outside you hear the cabin sound mix
+# 0 = switch to the outside camera at the lowest step, with X-Plane's exterior
+#     sound mix; 1 = switch already at the door
+outside_view = 2
+# X-Camera: while it is on and you walk, the plugin draws the view itself (look
+# around with the right mouse button); picking an X-Camera view hands it back.
+# 1 = on, 0 = leave the camera to X-Camera (walking then does not work with it)
+xcamera = 1
+# The next two are also switches in the phone (Settings app), which win over this file.
+# X-Camera in the cockpit: 1 = sitting down in the pilot or copilot seat hands the view
+# and W/A/S/D back to X-Camera (stand up with the walk commands); 0 = off
+xcamera_cockpit = 0
+# Go outside (menu or command): 1 = at the foot of the airstair, 0 = some way off, looking at the aircraft
+outside_at_stairs = 0
+# start outside after loading the Falcon, for the walkaround: 1 = on, 0 = off
+# (only when it stands on the ground with the engines off; the door stays closed)
+spawn_outside = 1
+# where: metres from the foot of the airstair, and degrees forward of abeam the door
+spawn_distance = 15
+spawn_angle = 45
+# start in the FBO lounge instead (it wins over spawn_outside): click its
+# "To Aircraft" door and the passenger car drives you the last stretch to the airstair, where
+# you get out. 1 = on, 0 = off. Plugins -> Homebase -> Start at the FBO
+# takes you there later.
+start_in_fbo = 1
+# the lounge is set up this far above the aircraft (m, at least 20), out of
+# reach of the airport's buildings and its birds (at 60 m they flew through it;
+# below the ground X-Plane pushes the camera out), and removed once you leave it
+fbo_height = 250
+# how far the car drives you to the airstair (m, along the airport's roads)
+fbo_ride_distance = 150
+# the frosted glass by day and the lounge's lamps (1 = as built; the glass at 1
+# is so bright that what stands in front of it looks black)
+fbo_window_brightness = 0.3
+fbo_light_brightness = 1.0
+# seconds to black and back (through its door the screen goes black, and the
+# picture comes back in the moving car)
+fbo_fade = 0.8
+# right after loading the aircraft the screen stays black at least this long
+# (s) while X-Plane loads the lounge's textures
+fbo_load_wait = 8
+# the lounge's music (0 = off, 1 = full); your own MP3s in fbo_custom play instead of ours
+fbo_music_volume = 0.35
+# the runner from the lounge's door to the reception: 1 = on, 0 = off
+fbo_runner = 1
+# your own pictures in the fbo_custom folder (see its README.txt): "runner" in
+# the name goes onto the runner, "tv" onto the screen behind the reception;
+# 1 = on, 0 = the plain runner and the welcome picture
+fbo_custom = 1
+# private hangars: a scenery pack with a hangar.walk (such as Private Hangar LFMQ)
+# has floors, stairs and a door the walker knows. Parked in one, you start there
+# instead of the FBO (1 = on, 0 = off), at its place called hangar_spawn (bar:
+# upstairs at the bar, floor: in the hall); the phone's Hangar app opens the door
+# and switches its lights, and neither van nor car comes
+start_in_hangar = 1
+# a test (Homebase): while the aircraft stands in its homebase hangar, the hangar is drawn
+# a second time as the aircraft's interior, out of the rain (X-Plane 12.4.4 on; also
+# Plugins menu > Hangar: interior test on/off): 1 = on, 0 = off
+hangar_interior_test = 0
+hangar_spawn = bar
+# door mat in front of the airstair while the door is fully open: 1 = on, 0 = off
+door_mat = 1
+# a livery's own door mat: a PNG or JPEG with "doormat" in its name in the livery
+# folder (or a folder in it) replaces the logos: 1 = on, 0 = always the standard mat
+door_mat_livery = 1
+# outside camera (outside_view 0/1) and with X-Camera: look around while holding
+# the right mouse button (degrees per pixel)
+mouse_sens = 0.20
+# click a seat cushion to sit down (while walking)
+seat_click = 1
+# footstep sounds (carpet inside, airstair, asphalt outside): 1 = on, volume 0..1
+footsteps = 1
+footstep_volume = 0.7
+# asphalt steps on the ground outside: 1 = on, 0 = off (carpet and airstair stay)
+footsteps_outside = 1
+# their volume outside, as a share of footstep_volume (0.75 = 75 %)
+footstep_outside_volume = 0.75
+# slight head bob while walking: 1 = normal, 0.5 = half, 0 = off
+head_bob = 1.0
+# optional: run this X-Plane command instead of using the eyepoint, e.g. sim/view/quick_look_7
+pilot_seat_command =
+copilot_seat_command =
+# luggage van (Plugins -> Homebase -> Ground service phone):
+# 1 = on, 0 = off. It starts at the airport's crew car spot nearest to you and comes
+# along the service roads and taxiways of the airport's apt.dat.
+luggage = 1
+# loading: carry = click a bag, walk, click into the open hold; direct = a click puts
+# the bag into the open hold; auto = the luggage door opens by itself and the bags
+# go in on their own. The phone switches it too and remembers the choice in
+# Homebase_luggage.txt, which wins over this line.
+luggage_mode = carry
+# how many bags the van brings (1 to 6; the hold takes about 5)
+luggage_bags_min = 3
+luggage_bags_max = 5
+# passenger car, a Maybach GLS 600 with chauffeur (Ground service phone): 1 = on,
+# 0 = off. It stops beside the airstair, opens both rear doors, the passengers get
+# out, it closes them again and drives back.
+passenger_car = 1
+# the passengers chat as they get out; with you standing outside nearby, one says
+# "Hello Captain" and you answer "Welcome aboard": 1 = on, 0 = off
+passenger_chatter = 1
+passenger_chatter_volume = 0.9
+# the vehicles' sounds: the car's V8 (outside, and in its cabin on the ride from the
+# FBO), its rear doors, the van's tailgate (0 = off, 1 = full)
+vehicle_sound_volume = 0.8
+# its side this far from the foot of the airstair (m)
+passenger_car_distance = 5
+# called together with the van ("Both"), it is at the stairs this long after the van is at the door (s)
+passenger_car_delay = 30
+# how long its rear doors stay open (s)
+passenger_car_doors = 8
+# the speed of both vehicles on the service roads and taxiways (m/s); near the
+# aircraft they keep to 3.9 m/s, reversing to 1.7 m/s
+van_speed = 10.4
+# a vehicle that would need longer than this to come (s) appears where it needs
+# this long; driving off, it disappears after this long
+vehicle_max_drive = 300
+# each vehicle comes only once while the aircraft is at an airport (forgotten once
+# it flies): 1 = on, 0 = call them as often as you like
+vehicle_once_per_airport = 1
+# the fuel truck (X-Plane's own Jet A truck), ordered on the phone's Fuel page or with the
+# clipboard on the FBO's counter: 1 = on, 0 = off. It comes once the aircraft is parked
+# with its engines off outside any hangar, for aircraft whose refuelling point is known
+fuel_truck = 1
+# how fast it pumps (kg a minute)
+fuel_rate = 600
+# the passenger door counts as open from this ratio on
+door_open_min = 0.9
+# the remote-controlled tow tug (Plugins menu > Tow tug remote, or the commands
+# .../tug/...: every switch and both sticks can be bound to keys or joystick
+# buttons; joystick axes are learned with the cog on the remote): 1 = on, 0 = off
+tug = 1
+# where it waits when called: this far ahead of the nose wheel and to its left (m)
+# (in a private hangar it waits beside the nose wheel)
+tug_spot_ahead = 9
+tug_spot_left = 3.5
+# the nose gear's towing limit either way (degrees); 0 = the aircraft's own
+# nose wheel steering limit
+tug_steer_limit = 0
+# its station in a private hangar, where the HOME button (or .../tug/home) sends it:
+# metres from the hangar's middle, x to the right seen from the door, y inwards
+# (negative: towards the door); away from a hangar it goes back to where it was called to
+tug_station_x = 19.5
+tug_station_y = -18
+# its motors, the lift and the remote's beeps (0 = off, 1 = full)
+tug_volume = 1
+
+# which aircraft Homebase is for: it stays off for these Plane Maker categories (airliner cargo military
+# general_aviation helicopter glider ultralight experimental seaplane vtol sci_fi) and above this max
+# take-off weight in tonnes (0 = no limit). An aircraft with a data pack is always on. Plugins > Homebase >
+# "Active for this aircraft" turns it on or off for the aircraft loaded, whatever these say.
+skip_categories = airliner cargo military
+skip_above_t = 60
+
+# ---- the hangar edition: airframes, homebases and the tablet (Plugins -> ... Hangar -> Tablet)
+# the tablet with your airframes while the aircraft loads (the screen stays black and the sim
+# paused until you pick one): 1 = on, 0 = off (the airframe used last is taken as it is)
+airframes_at_load = 1
+# loaded at an airframe's homebase, parked with the engines off and no farther than this from its
+# hangar (km): the aircraft is moved onto its stop mark in the hangar and you start inside
+homebase_radius_km = 4
+# each airframe keeps its fuel: saved as you left it when the aircraft unloads, the tanks filled
+# that way when you fly it again (at the load, or parked with the engines off): 1 = on, 0 = off
+airframe_keep_fuel = 1
+# each airframe keeps where it was parked: loaded at that airport again it stands exactly there (at
+# its homebase too, before the hangar); elsewhere the tablet offers to go there: 1 = on, 0 = off
+airframe_keep_spot = 1

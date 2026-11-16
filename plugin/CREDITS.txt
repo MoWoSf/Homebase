@@ -1,0 +1,172 @@
+FA8X Walkaround - credits for the 3D models and sounds
+=======================================================
+
+The vehicles and the people in them are based on these models, all licensed
+under Creative Commons Attribution 4.0 (http://creativecommons.org/licenses/by/4.0/).
+
+
+Luggage van
+-----------
+"2020 Mercedes-Benz EQV" (https://skfb.ly/pFqUL) by tonielpro520 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Changes made for this add-on:
+- converted to an X-Plane object (OBJ8), welded and reduced in detail
+  (431,000 to 131,000 triangles), scaled to the real length of 5.14 m
+- repainted Obsidian black; the flat colours given a gloss and metalness per
+  material, everything packed into one texture with a normal and a light map
+- the wheels, the front wheels' steering, the brake calipers and the tailgate
+  (with its glass, trim and third brake light) made movable
+- the lights made to light up: daytime running lights, low beam, tail and brake
+  lights, third brake light, reverse lights
+- the Philippine number plate replaced by a German one ("M FA 8000")
+- the third row of seats and the parcel shelf taken out; the load space lined
+  with a floor, side walls up to the windows, rounded wheel arches and a face
+  under the second row, all black
+- the whole van drawn from both sides, so it is not see-through anywhere
+
+
+Passenger car
+-------------
+"Mersedes- Benz Maybach GLS 600" (https://skfb.ly/oRoZT) by Black Snow is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Changes made for this add-on:
+- converted to an X-Plane object (OBJ8), scaled to the real length of 5.21 m
+  and reduced in detail
+- the running gear, engine and brakes of the BeamNG model left out; new brake
+  discs and calipers
+- coloured per material and part (the model has no textures): its own white
+  paint, chrome, a saddle brown cabin, privacy glass behind the B-pillar
+- the rear doors (with their trim and windows), the wheels, the front wheels'
+  steering and the lights made movable or able to light up
+- number plates added ("M FA 600")
+- the chauffeur and two passengers put inside (see below)
+- the window panes left out while you ride in the back yourself (from the FBO)
+
+
+Chauffeur and passengers
+------------------------
+"Business Man - Low Polygon game character" (https://skfb.ly/6Ezvq) by manoeldarochadeoliveira is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Changes made for this add-on:
+- posed sitting in the car from his "sitting_idle" pose: the legs reach into
+  the footwell, the chauffeur leans forward and holds the steering wheel
+- three copies merged into the car's object (the chauffeur, two passengers in
+  the rear seats who are hidden once they have got out) and their texture
+  packed into the car's texture
+
+
+FBO lounge furniture
+--------------------
+"Luxury Modern Couch - Black" (https://sketchfab.com/3d-models/d8e81d75f05b45b6b1cc7ce2563eaabb) by nghihuutr is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Modern Black Leather Swivel Armchair" (https://sketchfab.com/3d-models/ac3a9f5add59408b8ca944a0ccf1c8bd) by uliana- is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Modern Leather coffee stool Furniture 3D Model" (https://sketchfab.com/3d-models/8cff98e6d16b41d5a6700b4ea3887790) by thethreedproject is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Liquor bottles" (https://sketchfab.com/3d-models/b2088759f5ad4e91b06cf978e38a789f) by 1calm2 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Rounded Sofa" (https://sketchfab.com/3d-models/rounded-sofa-4be874fd75154eed820d6d90c341a537) by laithodeh3 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Office Chair" (https://sketchfab.com/3d-models/a7fefb5dde954c84896949246dde5be6) by artvolodskikh is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Recliner Chair" (https://sketchfab.com/3d-models/55eb4fd286944d1c9436ad3943a73c00) by jerrytjijo is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"MFP Office Printer" (https://sketchfab.com/3d-models/d55f6fca7c3d45c883bbff770672970d) by nokillnando is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Soda Vending Machine" (https://sketchfab.com/3d-models/f753a659faae499282e882d63972d4c2) by RasenDan is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Metal detector (entrance)" (https://sketchfab.com/3d-models/e05f5f48b3eb4fa88fc5c7548a3a324a) by menX1151 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Bathroom Sink 01" (https://sketchfab.com/3d-models/2568c7d17d894bc7974b62cf93da0b48) by OliverMatheGames is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Tree S1" (https://sketchfab.com/3d-models/tree-s1-440803f8ebdb48b3aaca244567093daa) by snowvy is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Fiddle Leaf Fig" (https://sketchfab.com/3d-models/fiddle-leaf-fig-7689508dc9d9481c934a412255e8de67) by dahliamihalic is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Orchid" (https://sketchfab.com/3d-models/orchid-f1091068cc89468f9c7f7490b3247238) by puppet_lee is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Snake plant In Pot" (https://sketchfab.com/3d-models/snake-plant-in-pot-68b8acaeb29e402ea4dc7c981cb5b497) by FranklySketch is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Round side coffee table marble top" (https://sketchfab.com/3d-models/round-side-coffee-table-marble-top-49e5ede6a16d4dd39386d6aa705fdbeb) by 3DTechDesignCo.Ltd is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Floor Lamp 3-Color CCT ) Arc Gold" (https://sketchfab.com/3d-models/floor-lamp-3-color-cct-arc-gold-fad285f48b1042aca4b4f421115280d4) by ceohive is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"espresso machine(product)" (https://sketchfab.com/models/8ed2c7f1517042b59de574fd74deecf0) by Mrhigh is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+The business jet on the reception's mural is rendered from "Miljet" (https://sketchfab.com/3d-models/c9c7a5d09850485bbe198c793078c50f) by dannzjs, licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Changes made for this add-on:
+- scaled to real sizes and placed in the lounge's rooms (VIP lounge, reception,
+  crew room, security, airside waiting room, washrooms, staff room), several of
+  them more than once
+- reduced in detail where they were heavy (the VIP sofa 225,000 to 60,000
+  triangles, the bar stool 183,000 to 14,000, the vending machine 247,000 to
+  50,000, the rounded sofa 485,000 to 80,000, the fiddle leaf fig 49,000 to
+  25,000, the espresso machine 72,000 to 16,000); the vending machine without its glass front and
+  side poster; the liquor bottles without their brand labels, in plain glass
+  colours, in rows on the back bar; the rounded sofa a third larger
+- "Miljet": its landing gear left out, rendered in flight over clouds at dusk
+  as a picture for the wall
+- converted to X-Plane objects (OBJ8) together with the rooms, all textures
+  baked into two textures with ambient occlusion, a gloss/metalness map and a
+  light map for what glows
+
+
+The armchairs of the reception and the airside room, the lounge chairs, the
+work counter's chairs, the ottoman, the bar's pendant lamps and the white vase
+are "Modern Arm Chair 01", "Mid Century Lounge Chair", "Dining Chair 02",
+"Ottoman 01", "Modern Ceiling Lamp 01" and "Ceramic Vase 01" from Poly Haven
+(https://polyhaven.com), dedicated to the public domain (CC0); so are the wood,
+stone and fabric textures.
+
+
+Other parts
+-----------
+- The bags, the door mat, the ground service phone and the FBO rooms (walls,
+  floors, ceilings and skylights, doors, lights, signs, the reception desk, the
+  bar, the x-ray machine, the wall panelling, the crew room's tables, clocks and
+  computers, the washrooms, the paintings, the departure, arrival and weather
+  screens) are original work for this add-on.
+- The signs' lettering and pictograms are drawn with the fonts Inter and
+  Noto Sans Symbols 2 / Noto Emoji (SIL Open Font License 1.1,
+  https://openfontlicense.org), as shipped with Blender.
+- The FBO lounge's music was composed for this add-on (tools/mkmusic.c).
+- The passengers' voices were generated offline with Kokoro v1.0 (hexgrad,
+  Apache License 2.0, https://huggingface.co/hexgrad/Kokoro-82M) through
+  sherpa-onnx (Apache License 2.0, https://github.com/k2-fsa/sherpa-onnx),
+  tools/gse/mkvoices.ps1.
+- The footstep sounds are synthesised by the plugin itself.
+
+
+Vehicle sounds
+--------------
+Cut from recordings on Freesound (https://freesound.org): trimmed, looped, levelled,
+some low-passed (tools/gse/mksounds.py).
+
+Licensed under Creative Commons Attribution:
+- The car's engine in its cabin: "A car, start, idling, engine shut down, interior,
+  Dodge Charger 471 V8" (https://freesound.org/s/324980/) and "A car, door, start, ...
+  driving on asphalt ... interior, Dodge Charger 471 V8" (https://freesound.org/s/325102/)
+  by YleArkisto, CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/).
+- The car's rear doors: "BMW 640D Gran Coupe foley interior doors open close mono
+  8040.wav" (https://freesound.org/s/425507/) by Soundholder, CC BY 3.0
+  (http://creativecommons.org/licenses/by/3.0/).
+- The van driving: "MITSUBISHI IMIEV electric car DRIVE windows open in parking garage"
+  (https://freesound.org/s/174850/) by jakobthiesen, CC BY 3.0
+  (http://creativecommons.org/licenses/by/3.0/).
+
+Dedicated to the public domain (CC0):
+- The car's engine outside: "Car, BMW M6, Start, Idle, Accelerate" by Kinoton
+  (https://freesound.org/s/478597/).
+- Road noise in the car: "Interior Audi A6 2014" by janbezouska (https://freesound.org/s/537766/).
+- The car's indicator: "Car blinker" by Audy_Leonard (https://freesound.org/s/431816/).
+- The van's tailgate: "Exterior Prius back hatch open close" by buddhafish
+  (https://freesound.org/s/327700/) and "08_Renault_duster_Trunk_close_open" by
+  semenov_nick (https://freesound.org/s/380724/).
+
+Fuel truck attendant (gse/fa8x_fueler.obj, gse/fa8x_fueler.png)
+  The man: made with MakeHuman / MPFB (https://static.makehumancommunity.org), its assets CC0 1.0
+  (makehuman_system_assets_cc0: body proxy male1591, skin middleage_caucasian_male, hair short02,
+  eyebrow004, eyes, the work suit male_worksuit01 dyed blue, boots shoes03).
+  His animations: "Universal Animation Library" by Quaternius, https://quaternius.itch.io/universal-animation-library - CC0 1.0.
+  The vest and the ear defenders are our own. Baked into a flipbook by tools/gse/fueler2_human.py and fueler2_make.py.

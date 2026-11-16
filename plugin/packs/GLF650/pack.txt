@@ -1,0 +1,4 @@
+name GLF650 and GLF650ER (AKD Studio)
+version 1.0
+author MoWoSf
+aircraft_version AKD Studio GLF650 v1.07   # folder "GLF650_1.01 XP12"; the values of GLF650 Walkaround 1.0.1

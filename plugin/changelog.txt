@@ -1,0 +1,41 @@
+0.3
+- Updates through the SkunkCrafts Updater: "Homebase" (the plugin) and "Homebase hangars" (the scenery pack); your settings, packs and hangars stay
+- Plugins > Homebase > AI profile kit for this aircraft: a folder with a ready prompt, the profile guide, what Homebase measured (draft.profile) and the bundled packs as examples, for an AI assistant to write a data pack
+- Docs folder: FEATURES.md (what Homebase does, which aircraft have a pack) and AIRCRAFT_PROFILE_GUIDE.md
+- Homebase stays off for airliners, cargo and military aircraft (Plane Maker's category in the .acf) and above 60 t max take-off weight; an aircraft with a data pack is always on. Plugins > Homebase > "Active for this aircraft" turns it on or off for the aircraft loaded and keeps that choice. Homebase.ini: skip_categories, skip_above_t
+- Luggage van: its load space lights up at night while the tailgate is open (lamps in the D-pillars and the headliner, one in the open tailgate's edge lights the ground behind it)
+- The van, the car and the fuel truck keep to their lane on service roads and taxiways instead of the centre line: on the right, on the left in the countries that drive on the left (UK, Ireland, Japan, Australia, ...)
+- Fuel truck: a new nozzle (coupling collar, swivel elbow, two loop handles, lever); the driver walks it out on the hose's front end, the hose comes off the reel bit by bit behind it, and couples it onto the adaptor (12 s; rolled up the same way back)
+- Falcon 8X: the fuel hose goes round Aerobask's GPU cart instead of under it (data pack key hose_avoid)
+- Fuel hose: round (24 sides, the nozzle 32) and textured: black rubber with its print ("JET A-1 · AVIATION REFUELLING HOSE ...") and red lines on both flanks, a faint wrapping, dust; turned aluminium, ribbed grips, dark anodised collar and a crimped steel ferrule on the nozzle; with a normal map (metalness, gloss)
+- Fuel hose: lies as a hose pulled off its reel does: hanging down to the ground, along it in one gentle curve, round the GPU the short way and straight up into the nozzle; no more S-bends ("snake")
+- Picked up at the aircraft: phone > FBO > "Pick me up" (through Sandra) sends your car to the stairs; it waits with its rear doors open, click its left rear door, you get in and are driven to the lounge ("Go to lounge" still takes you there at once; "Cancel car" calls it back)
+- Getting out of the car at the aircraft: the camera no longer goes through the open rear door
+- FBO screens look for new data every 3 s (was 10 s) and repaint as soon as something changed; the SimBrief plan is asked every minute (was 3 minutes)
+- Phone: put away, its top peeks out of the bottom edge of the screen (the time, "1 new" for unread messages, "Car waiting" while your car waits); it rises under the mouse, a click takes it out. Not while seated in the cockpit: sitting down puts an open phone away (the menu and the command still take it out there)
+- Phone redesigned: a dock along the bottom (Now, Services, Sandra, FBO, Hangar - the last only at your hangar); Now shows where you are (in the lounge, ready for departure, arrived, turnaround, ...) with one to three suggestions, what is under way and your next flight; Services has the five ground services as cards with one button each (Luggage, Passengers, Fuel, Tow tug, My car); Settings behind the gear on Now
+- Phone: tap the status bar for the control centre (Pilot seat, Go outside, Lounge, By car; the switches Walkaround, Homebase active, X-Camera in the cockpit, Go outside at the stairs)
+- Phone: banners at the top when a service moves on (on its way, at the aircraft, refuelled, your car is waiting); put away, a small light glows in its dark screen
+- Phone: Preferences > Quick orders - the buttons act at once, Sandra's chat only follows
+- Phone: Settings > Fuel units - kg, lb, litres or US gallons (Jet A-1 at 0.803 kg a litre) for the Fuel page, its steps, the Fuel card, the messages and the clipboard in the FBO
+- Phone: its arrows (back, the chevrons, the send arrow) showed as dots in X-Plane: X-Plane leaves face culling on, which dropped every line drawn the other way round; the phone (and the tow tug remote) now draw with it off, and every shape is wound one way
+- Phone: an off button beside the gear on Now puts it away into its pocket
+- Aircraft without a data pack (no luggage hold or refuelling point known): the luggage van now comes anyway; it stops at the rear left with at least a metre to wing and fuselage, unloads, and the bags go into the aircraft by themselves (collecting brings them back out); the phone says "rear left"
+- Aircraft without a data pack: the fuel truck parks at the rear right, clear of wing and tail, and lays its hose to the fuselage behind the wing (the refuelling point guessed from the aircraft's shape); no panel to open there
+- Fuel truck: its driver gets out and does the refuelling himself: walks from the cab to the reel, carries the nozzle out along the hose, couples it on, waits beside it while it pumps, pulls it off, carries it back as the hose rolls up and gets back in; the truck waits for him. He is a realistic man (MakeHuman, CC0) in a blue coverall, a neon-yellow high-visibility vest with silver bands and red ear defenders, animated with Quaternius' Universal Animation Library (CC0)
+- Fuel truck attendant: walks up to within an arm's reach of the refuelling point and couples the nozzle on by hand: his right arm follows the nozzle all the way up into the adaptor (and pulls it off the same way), at whatever height the adaptor is
+- Fuel truck attendant: stands upright while it pumps (no more crouched "ready" stance); his hands relaxed, the right one closed round the nozzle when he holds it
+- Fuel hose: carried, it no longer shows a second loose end on the ground ahead of the stretch from his hand: the hose laid behind him ends where that stretch reaches the ground; rising to the aircraft it stays on the nozzle (it rises with it in 24 steps) instead of the nozzle floating free above the hose
+- Aircraft without a data pack: the guessed refuelling point is at least 1.2 m up (within the attendant's reach)
+- Fuel truck attendant: he holds the nozzle by its right loop handle, not the hose behind it: carrying it (his right arm follows it as he walks), lifting it into the adaptor and pulling it off; the hose hangs from the nozzle's tail; he stands where his arm reaches the handle on the adaptor (one step closer for a high one). The hose's print runs on into the stretch that rises to the aircraft
+- Phone: the Hangar app opens anywhere: away from a hangar it lists your hangars, the nearest first (airport, distance), or tells you to place one with the tablet (it did nothing away from one)
+- Phone Settings: Fuelling time Realistic / Fast / Instant. Fast pumps 10 times as fast; Instant needs no fuel truck: the order goes aboard as soon as the aircraft stands parked with its engines off (in the hangar too). Kept per aircraft
+
+0.2 (beta 2026-11-10)
+- Refuelling: order Jet A-1 on the phone or with the clipboard on the FBO's counter; X-Plane's fuel truck lays its hose and pumps
+- FBO lounge: route map on the VIP TV, signs on the walls, sharper furniture, darker screens at night, several walk fixes
+- Hangars: building and fence removal under a new hangar, the yellow line no longer shows through; vehicles keep to service roads
+- Tow tug: checks the whole aircraft outline, no slipping through thin walls, steadier view
+
+0.1 (beta 2026-10-29)
+- First beta: one global plugin for every aircraft; FBO lounge, private hangars in four sizes placed with the tablet, airframes, phone, ground services, tow tug; data packs for the Falcon 8X and the GLF650

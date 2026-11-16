@@ -1,0 +1,10 @@
+A
+850
+DRAPED_POLYGON
+
+# the concrete before a homebase hangar's door (Poly Haven concrete_floor_worn_001, CC0)
+TEXTURE textures/forecourt_concrete.png
+SCALE 6 6
+LAYER_GROUP taxiways 1
+SURFACE concrete
+NO_ALPHA

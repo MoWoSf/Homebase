@@ -1,0 +1,4 @@
+name Falcon 8X (Aerobask)
+version 1.0
+author MoWoSf
+aircraft_version Aerobask Falcon 8X 12.0b7   # measured on it; the values of FA8X Walkaround 1.5

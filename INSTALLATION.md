@@ -5,7 +5,7 @@
 - Windows 64-bit (this beta has no macOS or Linux build yet)
 
 ## Download
-Get the newest `Homebase_beta_<date>.zip` (now `Homebase_beta_2026-11-10.zip`) from the [Releases](https://github.com/MoWoSf/Homebase/releases) page of this repository (about 680 MB).
+Get `Homebase.zip` (version 0.3) from the [Releases](https://github.com/MoWoSf/Homebase/releases) page of this repository.
 
 ## Install
 With X-Plane closed, unpack the ZIP straight into your **X-Plane 12 folder** and let it merge with what is already there. That's all.
@@ -26,7 +26,11 @@ On its first start, Homebase sets itself up:
 - If you still have the old `FA8X_Walkaround` or `GLF650_Walkaround` plugin in an aircraft folder, delete it. Homebase does everything it did, and stands down for that aircraft while it is there.
 
 ## Updating
-Unpack the new ZIP over the old one, the same way as installing. Your own data is never overwritten:
+**With the SkunkCrafts Updater (recommended):** install the free SkunkCrafts Updater. It finds two entries, **Homebase** (the plugin) and **Homebase hangars** (the hangar models), and keeps both up to date. Update both.
+
+**By hand:** unpack the new ZIP over the old one, the same way as installing.
+
+Either way, your own data is never overwritten:
 
 | What | Where |
 |---|---|
@@ -42,6 +46,9 @@ Delete these two folders:
 - `Custom Scenery/Private Hangar Homebases`
 
 Delete `Output/Homebase` too if you also want to remove your airframes.
+
+## What it does
+See [FEATURES.md](plugin/Docs/FEATURES.md) (also in `Resources/plugins/Homebase/Docs/` after installing): every feature, and which aircraft come with a data pack. To make a data pack for another aircraft with an AI assistant, use **Plugins > Homebase > AI profile kit for this aircraft ...**.
 
 ## Problems
 Send `X-Plane 12/Log.txt` (straight after the problem, before restarting), with the lines starting `Homebase:`, and the steps that led to it.
