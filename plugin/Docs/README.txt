@@ -9,7 +9,7 @@ folders:
 Start X-Plane. At its first start Homebase makes its Homebase.ini from Homebase.ini.default and
 puts the hangar pack's line into scenery_packs.ini.
 
-Updating from an earlier beta: unpack over it and let it replace the files. Your Homebase.ini, your
+Updating from an earlier version: unpack over it and let it replace the files. Your Homebase.ini, your
 own hangars (hangars/, bases/, Earth nav data/) and everything in Output/Homebase stay.
 
 UPDATES

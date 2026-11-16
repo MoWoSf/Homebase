@@ -1,10 +1,11 @@
 CREDITS.txt|11307
 Docs/AIRCRAFT_PROFILE_GUIDE.md|38096
-Docs/FEATURES.md|9051
-Docs/README.txt|2001
+Docs/FEATURES.md|9178
+Docs/FEATURES_SHORT.txt|2224
+Docs/README.txt|2004
 FA8X_SoundDesigner.html|40437
 Homebase.ini.default|10615
-changelog.txt|7682
+changelog.txt|8708
 fbo/fa8x_fbo.dds|44739384
 fbo/fa8x_fbo.layout|105995
 fbo/fa8x_fbo.obj|3987280
@@ -95,4 +96,4 @@ packs/Falcon_8X/Falcon8X.profile|5510
 packs/Falcon_8X/pack.txt|149
 packs/GLF650/GLF650_AKD.profile|5706
 packs/GLF650/pack.txt|174
-win_x64/Homebase.xpl|1075712
+win_x64/Homebase.xpl|1077760

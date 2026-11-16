@@ -1,0 +1,41 @@
+HOMEBASE FOR X-PLANE 12  (version 1.0)
+Your FBO, your hangar, your ground crew.
+
+One global plugin for every aircraft you fly. Start in an FBO lounge or in your own private hangar,
+walk round your aircraft, and let the ground services come to you.
+
+KEY FEATURES
+
+- Works with any aircraft: Homebase measures it from its 3D models for walking round it, the
+  hangar fit check and vehicles that keep clear of wings, engines and tail.
+- Data packs included for the Aerobask Falcon 8X and the AKD Studio G650 / G650ER: airstair,
+  cabin, seats, luggage hold and refuelling point.
+- FBO lounge with reception, VIP bar, crew briefing room and real lights at night. The screens
+  show the departure board (VATSIM), weather, ATIS and your SimBrief OFP. A car drives you to
+  your aircraft.
+- Private hangars in four sizes (L, M, S, XS). Place them at any airport with the tablet's map.
+  Each has its own door and lights, and you start upstairs at the bar.
+- Ground services ordered from the phone:
+  - a luggage van that loads your bags into the hold;
+  - a passenger car;
+  - turnarounds for your next SimBrief flight.
+- Fuel truck with an attendant who handles the hose and nozzle. Order an amount, your SimBrief
+  ramp fuel, or full tanks. Fuelling time: Realistic, Fast or Instant.
+- Tow tug with a remote. Push back and tow; HOME parks the aircraft back in its hangar.
+- Tablet with your airframes: registration, livery and homebase. Each airframe keeps its fuel,
+  parking spot and flight hours. A world map shows where they all are.
+- First-person walkaround through the cabin, airstair, apron, lounge and hangar, with footsteps
+  on every surface. Works with X-Camera.
+- Your own aircraft: Plugins > Homebase > AI profile kit writes a ready-to-use AI prompt with
+  the aircraft's measurements, to make a data pack for it.
+- Automatic updates through the free SkunkCrafts Updater.
+
+INSTALLATION
+Unpack Homebase.zip into your X-Plane 12 folder (the one with X-Plane.exe). Then start X-Plane.
+
+REQUIREMENTS
+X-Plane 12, Windows 64-bit.
+Optional: a SimBrief ID, a VATSIM CID, the SkunkCrafts Updater.
+
+Please report problems on our Discord and attach your Log.txt.
+Full feature list: Resources/plugins/Homebase/Docs/FEATURES.md

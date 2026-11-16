@@ -8,7 +8,7 @@ It sets itself up for each aircraft as that aircraft loads. A **data pack** adds
 airstair, the cabin, the seats, the luggage hold and the refuelling point. Without a pack, Homebase
 measures the aircraft from its 3D models and guesses the rest.
 
-Windows 64-bit. Beta: please report what you see on the Discord, with your `Log.txt`.
+Version 1.0, Windows 64-bit. Please report problems on the Discord, with your `Log.txt`.
 
 ---
 
@@ -129,7 +129,7 @@ Each airframe has its own start. You choose it on the tablet:
   - Homebase writes the scenery tiles itself. Restart X-Plane after placing or moving a hangar.
 - **Fit check**: Homebase measures span, length and height and tells you which hangars the
   aircraft fits.
-- Each hangar has its own **door and lights**: phone > Hangar app, or the commands
+- Each hangar has its own **door and lights**: phone > Hangar app (the hangar nearest to you), or the commands
   `homebase/hangar_door`, `hangar_lights_*`.
 - **Walk inside**: the hall, the stairs and the lounge upstairs. You start at the bar.
 - **Tow tug** with a remote:
@@ -146,6 +146,7 @@ Each airframe has its own start. You choose it on the tablet:
 - Each airframe keeps its fuel, its parking spot and its flight hours between flights.
 - **World map**: where your airframes and homebases are.
 - **Homebase map**: place, move or remove hangars, and choose the size.
+- **Your hangars**: give an airframe of any aircraft a hangar you already have as its homebase.
 
 ---
 

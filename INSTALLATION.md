@@ -2,10 +2,10 @@
 
 ## Requirements
 - X-Plane 12 (12.1 or newer)
-- Windows 64-bit (this beta has no macOS or Linux build yet)
+- Windows 64-bit (no macOS or Linux build yet)
 
 ## Download
-Get `Homebase.zip` (version 0.3) from the [Releases](https://github.com/MoWoSf/Homebase/releases) page of this repository.
+Get `Homebase.zip` (version 1.0) from the [Releases](https://github.com/MoWoSf/Homebase/releases) page of this repository.
 
 ## Install
 With X-Plane closed, unpack the ZIP straight into your **X-Plane 12 folder** and let it merge with what is already there. That's all.

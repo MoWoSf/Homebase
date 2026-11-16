@@ -1,4 +1,11 @@
-0.3
+1.0
+- Tablet: "Your hangars", every hangar you have at every airport: Use makes one the homebase of another airframe, of any aircraft (greyed, with the reason, where the aircraft does not go in); Del removes one that is no airframe's. Opened with "Use a hangar you have" on the airframe's homebase card and on the Homebase map
+- Phone: the Hangar app always shows the hangar nearest to you (on foot: where you stand, else the aircraft), with its door and lights, and how far it is when you are not at it; no list any more. With none within a few km it names the nearest of yours and how far. The door and light keys work the same hangar
+- Small hangar (Pavilion): you can walk out through the entrance door at the back; the round coffee table stands in front of the curved sofa (it stood at its end, half in it)
+- Extra-small hangar (Cabin): you can walk through the side door onto the porch; the orange rectangle in front of the wood stove is gone
+- Fuel nozzle: no more see-through slits at the elbow's joints
+
+0.3 (2026-11-16)
 - Updates through the SkunkCrafts Updater: "Homebase" (the plugin) and "Homebase hangars" (the scenery pack); your settings, packs and hangars stay
 - Plugins > Homebase > AI profile kit for this aircraft: a folder with a ready prompt, the profile guide, what Homebase measured (draft.profile) and the bundled packs as examples, for an AI assistant to write a data pack
 - Docs folder: FEATURES.md (what Homebase does, which aircraft have a pack) and AIRCRAFT_PROFILE_GUIDE.md

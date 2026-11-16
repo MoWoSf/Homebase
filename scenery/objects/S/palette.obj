@@ -19811,15 +19811,7 @@ IDX	4221
 # XP_HS_Beam_0
 ANIM_begin
 ANIM_hide	0.5	1.5	private_hangar/world_hidden
-TRIS	0	1404
-# XP_HS_Compass_N
-TRIS	1404	24
-# XP_HS_Compass_Ring
-TRIS	1428	2304
-# XP_HS_Compass_Ticks
-TRIS	3732	144
-# XP_HS_Crew_Bath_Floor
-TRIS	3876	912
+TRIS	0	4788
 # XP_HS_Door_Bottom_Frame
 ANIM_begin
 	ANIM_trans_begin	private_hangar/door/ratio
@@ -19939,21 +19931,7 @@ ANIM_begin
 	TRIS	4824	72
 ANIM_end
 # XP_HS_Ext_Stair_Landing
-TRIS	4896	2772
-# XP_HS_Mark_Centerline
-TRIS	7668	36
-# XP_HS_Mark_Stop
-TRIS	7704	36
-# XP_HS_Mark_Stop_Text
-TRIS	7740	1590
-# XP_HS_Mark_Stop_Tick
-TRIS	9330	36
-# XP_HS_Mark_TailLine
-TRIS	9366	36
-# XP_HS_Mark_TailLine_Text
-TRIS	9402	150
-# XP_HS_Model_Shelf
-TRIS	9552	17244
+TRIS	4896	21900
 # office_off lit
 ANIM_begin
 	ANIM_hide	0.5	1000	private_hangar/lights/office_off
