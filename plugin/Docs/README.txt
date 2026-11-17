@@ -2,12 +2,14 @@ Homebase for X-Plane 12 - read me
 =================================
 
 INSTALLING
-Unpack Homebase.zip straight into your X-Plane 12 folder (the one with X-Plane.exe). It brings two
+Unpack Homebase.zip straight into your X-Plane 12 folder (the one with the X-Plane program). It brings two
 folders:
   Resources/plugins/Homebase                      the plugin
   Custom Scenery/Private Hangar Homebases         the hangars' models (and the LFMQ showcase)
 Start X-Plane. At its first start Homebase makes its Homebase.ini from Homebase.ini.default and
 puts the hangar pack's line into scenery_packs.ini.
+macOS: macOS blocks downloaded plugins until you run this once in the Terminal (your X-Plane path):
+  xattr -dr com.apple.quarantine "/Applications/X-Plane 12/Resources/plugins/Homebase"
 
 Updating from an earlier version: unpack over it and let it replace the files. Your Homebase.ini, your
 own hangars (hangars/, bases/, Earth nav data/) and everything in Output/Homebase stay.

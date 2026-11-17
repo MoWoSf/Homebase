@@ -31,10 +31,12 @@ KEY FEATURES
 - Automatic updates through the free SkunkCrafts Updater.
 
 INSTALLATION
-Unpack Homebase.zip into your X-Plane 12 folder (the one with X-Plane.exe). Then start X-Plane.
+Unpack Homebase.zip into your X-Plane 12 folder (the one with the X-Plane program). Then start X-Plane.
 
 REQUIREMENTS
-X-Plane 12, Windows 64-bit.
+X-Plane 12 on Windows, macOS (Apple silicon and Intel) or Linux, 64-bit.
+macOS: after unpacking, run in the Terminal once:
+  xattr -dr com.apple.quarantine "/Applications/X-Plane 12/Resources/plugins/Homebase"
 Optional: a SimBrief ID, a VATSIM CID, the SkunkCrafts Updater.
 
 Please report problems on our Discord and attach your Log.txt.

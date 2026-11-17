@@ -8,7 +8,7 @@ It sets itself up for each aircraft as that aircraft loads. A **data pack** adds
 airstair, the cabin, the seats, the luggage hold and the refuelling point. Without a pack, Homebase
 measures the aircraft from its 3D models and guesses the rest.
 
-Version 1.0, Windows 64-bit. Please report problems on the Discord, with your `Log.txt`.
+Version 1.0 for Windows, macOS (Apple silicon and Intel) and Linux, 64-bit; the macOS and Linux versions are new and not yet tested in X-Plane. Please report problems on the Discord, with your `Log.txt`.
 
 ---
 

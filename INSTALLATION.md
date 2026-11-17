@@ -2,7 +2,7 @@
 
 ## Requirements
 - X-Plane 12 (12.1 or newer)
-- Windows 64-bit (no macOS or Linux build yet)
+- Windows, macOS (Apple silicon and Intel) or Linux, 64-bit. macOS and Linux are new and not yet tested in X-Plane.
 
 ## Download
 Get `Homebase.zip` (version 1.0) from the [Releases](https://github.com/MoWoSf/Homebase/releases) page of this repository.
