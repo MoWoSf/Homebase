@@ -5,7 +5,7 @@
 - Extra-small hangar (Cabin): you can walk through the side door onto the porch; the orange rectangle in front of the wood stove is gone
 - Fuel nozzle: no more see-through slits at the elbow's joints
 - Fix: X-Plane crashed right after loading with XPRealistic Pro installed: XPRealistic does not survive the sim being paused at that moment, so with it loaded Homebase no longer pauses the sim while you pick your airframe on the tablet
-- Phone: switched off with its power button, it stays off after a restart (until Plugins > Homebase > Phone)
+- Phone: Plugins > Homebase > "Phone: hide completely when off" - with it ticked, the phone's power button hides the phone and its pocket, also after a restart, until Plugins > Homebase > Phone takes it out; unticked (the default) the power button puts it into its pocket as before
 
 0.3 (2026-11-16)
 - Updates through the SkunkCrafts Updater: "Homebase" (the plugin) and "Homebase hangars" (the scenery pack); your settings, packs and hangars stay

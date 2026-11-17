@@ -5,7 +5,7 @@ Docs/FEATURES_SHORT.txt|2414
 Docs/README.txt|2199
 FA8X_SoundDesigner.html|40437
 Homebase.ini.default|10615
-changelog.txt|9053
+changelog.txt|9226
 fbo/fa8x_fbo.dds|44739384
 fbo/fa8x_fbo.layout|105995
 fbo/fa8x_fbo.obj|3987280
@@ -86,7 +86,7 @@ gse/voice_chat3.wav|127280
 gse/voice_chat4.wav|86212
 gse/voice_hello.wav|56742
 gse/voice_welcome.wav|69340
-lin_x64/Homebase.xpl|1130960
+lin_x64/Homebase.xpl|1131600
 mac_x64/Homebase.xpl|2267648
 mat/fa8x_doormat.obj|855335
 mat/fa8x_doormat.png|1610587
@@ -98,4 +98,4 @@ packs/Falcon_8X/Falcon8X.profile|5510
 packs/Falcon_8X/pack.txt|149
 packs/GLF650/GLF650_AKD.profile|5706
 packs/GLF650/pack.txt|174
-win_x64/Homebase.xpl|1078272
+win_x64/Homebase.xpl|1078784
