@@ -1,3 +1,8 @@
+1.0.1
+- Fix: on foot outside an aircraft without a data pack, a click on its covers, chocks or other click spots near the cockpit put you into the pilot seat instead of working: single clicks are now always the aircraft's own; to board it, double-click it by its cockpit (or Plugins > Homebase > Pilot seat)
+- Tow tug: the "OBSTACLE AHEAD" stop is gone (it came up with nothing in the way): the tug no longer stops short of hangar walls, doors and vehicles, so mind your wingtips; it still stops for people, and the spot it is called to still keeps clear of them
+- The Log notes when Homebase is disabled (X-Plane then greys its Plugins menu: Plugins > Plugin Admin enables it again)
+
 1.0
 - Tablet: "Your hangars", every hangar you have at every airport: Use makes one the homebase of another airframe, of any aircraft (greyed, with the reason, where the aircraft does not go in); Del removes one that is no airframe's. Opened with "Use a hangar you have" on the airframe's homebase card and on the Homebase map
 - Phone: the Hangar app always shows the hangar nearest to you (on foot: where you stand, else the aircraft), with its door and lights, and how far it is when you are not at it; no list any more. With none within a few km it names the nearest of yours and how far. The door and light keys work the same hangar
